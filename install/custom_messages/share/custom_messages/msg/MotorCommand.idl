@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_messages/msg/MotorCommand.msg
+// generated code does not contain a copyright notice
+
+
+module custom_messages {
+  module msg {
+    struct MotorCommand {
+      uint16 motor_id;
+
+      float goal;
+
+      boolean speedmode;
+
+      boolean stop;
+
+      boolean reset;
+
+      boolean voltagemode;
+    };
+  };
+};

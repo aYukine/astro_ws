@@ -1,0 +1,38 @@
+{
+  "package_name": "custom_messages",
+  "output_dir": "/home/ayukine/holy_ws/build/custom_messages/rosidl_generator_py/custom_messages",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/MotorCommand.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/MotorFeedback.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/CanMsg.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/ControllerMsg.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/YoloDetection.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/YoloDetectionArray.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/Dino.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:srv/ResetOdom.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/MotorCommand.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/MotorFeedback.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/CanMsg.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/ControllerMsg.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/YoloDetection.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/Dino.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/srv/ResetOdom.idl"
+  ]
+}

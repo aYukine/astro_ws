@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_messages/msg/YoloDetectionArray.msg
+// generated code does not contain a copyright notice
+
+#include "custom_messages/msg/YoloDetection.idl"
+
+module custom_messages {
+  module msg {
+    @verbatim (language="comment", text=
+      "YoloDetectionsArray.msg")
+    struct YoloDetectionArray {
+      @verbatim (language="comment", text=
+        "An array of detections")
+      sequence<custom_messages::msg::YoloDetection> detections;
+    };
+  };
+};

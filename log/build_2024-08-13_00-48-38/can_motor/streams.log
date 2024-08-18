@@ -1,0 +1,39 @@
+[0.528s] Invoking command in '/home/ayukine/holy_ws/src/can_motor': AMENT_PREFIX_PATH=/home/ayukine/holy_ws/install/custom_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayukine/holy_ws/install/custom_messages LD_LIBRARY_PATH=/home/ayukine/holy_ws/install/custom_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayukine/holy_ws/build/can_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages:/home/ayukine/holy_ws/install/custom_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/can_motor build --build-base /home/ayukine/holy_ws/build/can_motor/build install --record /home/ayukine/holy_ws/build/can_motor/install.log --install-scripts $base/lib/can_motor --single-version-externally-managed install_data
+[0.661s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.661s]   warnings.warn(
+[0.666s] running egg_info
+[0.666s] creating ../../build/can_motor/can_motor.egg-info
+[0.666s] writing ../../build/can_motor/can_motor.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/can_motor/can_motor.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../../build/can_motor/can_motor.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/can_motor/can_motor.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/can_motor/can_motor.egg-info/top_level.txt
+[0.667s] writing manifest file '../../build/can_motor/can_motor.egg-info/SOURCES.txt'
+[0.667s] reading manifest file '../../build/can_motor/can_motor.egg-info/SOURCES.txt'
+[0.668s] writing manifest file '../../build/can_motor/can_motor.egg-info/SOURCES.txt'
+[0.668s] running build
+[0.668s] running build_py
+[0.668s] creating /home/ayukine/holy_ws/build/can_motor/build
+[0.668s] creating /home/ayukine/holy_ws/build/can_motor/build/lib
+[0.668s] creating /home/ayukine/holy_ws/build/can_motor/build/lib/can_motor
+[0.668s] copying can_motor/__init__.py -> /home/ayukine/holy_ws/build/can_motor/build/lib/can_motor
+[0.668s] copying can_motor/can_motor.py -> /home/ayukine/holy_ws/build/can_motor/build/lib/can_motor
+[0.668s] running install
+[0.668s] running install_lib
+[0.669s] creating /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor
+[0.669s] copying /home/ayukine/holy_ws/build/can_motor/build/lib/can_motor/__init__.py -> /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor
+[0.669s] copying /home/ayukine/holy_ws/build/can_motor/build/lib/can_motor/can_motor.py -> /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor
+[0.669s] byte-compiling /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor/__init__.py to __init__.cpython-310.pyc
+[0.669s] byte-compiling /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor/can_motor.py to can_motor.cpython-310.pyc
+[0.670s] running install_data
+[0.670s] creating /home/ayukine/holy_ws/install/can_motor/share/ament_index
+[0.670s] creating /home/ayukine/holy_ws/install/can_motor/share/ament_index/resource_index
+[0.670s] creating /home/ayukine/holy_ws/install/can_motor/share/ament_index/resource_index/packages
+[0.670s] copying resource/can_motor -> /home/ayukine/holy_ws/install/can_motor/share/ament_index/resource_index/packages
+[0.670s] copying package.xml -> /home/ayukine/holy_ws/install/can_motor/share/can_motor
+[0.670s] running install_egg_info
+[0.671s] Copying ../../build/can_motor/can_motor.egg-info to /home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages/can_motor-0.0.1-py3.10.egg-info
+[0.671s] running install_scripts
+[0.685s] Installing can_motor_node script to /home/ayukine/holy_ws/install/can_motor/lib/can_motor
+[0.685s] writing list of installed files to '/home/ayukine/holy_ws/build/can_motor/install.log'
+[0.701s] Invoked command in '/home/ayukine/holy_ws/src/can_motor' returned '0': AMENT_PREFIX_PATH=/home/ayukine/holy_ws/install/custom_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ayukine/holy_ws/install/custom_messages LD_LIBRARY_PATH=/home/ayukine/holy_ws/install/custom_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ayukine/holy_ws/build/can_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayukine/holy_ws/install/can_motor/lib/python3.10/site-packages:/home/ayukine/holy_ws/install/custom_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/can_motor build --build-base /home/ayukine/holy_ws/build/can_motor/build install --record /home/ayukine/holy_ws/build/can_motor/install.log --install-scripts $base/lib/can_motor --single-version-externally-managed install_data

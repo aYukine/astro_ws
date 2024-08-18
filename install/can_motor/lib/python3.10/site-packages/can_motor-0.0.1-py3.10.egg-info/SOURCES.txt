@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/can_motor/can_motor.egg-info/PKG-INFO
+../../build/can_motor/can_motor.egg-info/SOURCES.txt
+../../build/can_motor/can_motor.egg-info/dependency_links.txt
+../../build/can_motor/can_motor.egg-info/entry_points.txt
+../../build/can_motor/can_motor.egg-info/requires.txt
+../../build/can_motor/can_motor.egg-info/top_level.txt
+../../build/can_motor/can_motor.egg-info/zip-safe
+can_motor/__init__.py
+can_motor/can_motor.py
+resource/can_motor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
