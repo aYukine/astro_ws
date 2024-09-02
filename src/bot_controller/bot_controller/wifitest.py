@@ -9,7 +9,7 @@ from nav_msgs.msg import Odometry
 class ControlNode(Node):
     def __init__(self):
         Node.__init__(self, 'control_node') 
-        self.remote_listener = self.create_subscription(Report, '/pad', self.callback, 10)
+        self.remote_listener = self.create_subscription(Report, '/raw_report', self.callback, 10)
         self.feedback_listener = self.create_subscription(MotorFeedback, '/motor_feedback', self.odom_callback, 10)
         self.can_publisher = self.create_publisher(MotorCommand, '/publish_motor', 10)
         self.location_pub = self.create_publisher(Odometry, '/odom', 10)

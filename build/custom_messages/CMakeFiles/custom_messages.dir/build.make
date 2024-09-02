@@ -73,6 +73,7 @@ CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/msg/Contro
 CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/msg/YoloDetection.msg
 CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/msg/YoloDetectionArray.msg
 CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/msg/Dino.msg
+CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/msg/GameSir.msg
 CMakeFiles/custom_messages: /home/ayukine/holy_ws/src/custom_messages/srv/ResetOdom.srv
 CMakeFiles/custom_messages: rosidl_cmake/srv/ResetOdom_Request.msg
 CMakeFiles/custom_messages: rosidl_cmake/srv/ResetOdom_Response.msg

@@ -225,6 +225,9 @@ CMakeFiles/custom_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/dino__functions.h \
+ /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__type_support.h \
+ /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__struct.h \
+ /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.h \
  /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/srv/detail/reset_odom__type_support.h \
  /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/srv/detail/reset_odom__struct.h \
  /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.h

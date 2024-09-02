@@ -76,6 +76,7 @@ custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_m
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_yolo_detection.py
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_yolo_detection_array.py
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_dino.py
+custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_game_sir.py
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/srv/_reset_odom.py
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/__init__.py
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/srv/__init__.py
@@ -86,6 +87,7 @@ custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_m
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_yolo_detection_s.c
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_yolo_detection_array_s.c
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_dino_s.c
+custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/msg/_game_sir_s.c
 custom_messages__py/CMakeFiles/custom_messages__py: rosidl_generator_py/custom_messages/srv/_reset_odom_s.c
 
 rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -108,6 +110,7 @@ rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_messages/msg/YoloDetection.idl
 rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl
 rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_messages/msg/Dino.idl
+rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_messages/msg/GameSir.idl
 rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_messages/srv/ResetOdom.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/ayukine/holy_ws/build/custom_messages/custom_messages__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
@@ -139,6 +142,9 @@ rosidl_generator_py/custom_messages/msg/_yolo_detection_array.py: rosidl_generat
 rosidl_generator_py/custom_messages/msg/_dino.py: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/msg/_dino.py
 
+rosidl_generator_py/custom_messages/msg/_game_sir.py: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/msg/_game_sir.py
+
 rosidl_generator_py/custom_messages/srv/_reset_odom.py: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/srv/_reset_odom.py
 
@@ -169,6 +175,9 @@ rosidl_generator_py/custom_messages/msg/_yolo_detection_array_s.c: rosidl_genera
 rosidl_generator_py/custom_messages/msg/_dino_s.c: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/msg/_dino_s.c
 
+rosidl_generator_py/custom_messages/msg/_game_sir_s.c: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/msg/_game_sir_s.c
+
 rosidl_generator_py/custom_messages/srv/_reset_odom_s.c: rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_messages/srv/_reset_odom_s.c
 
@@ -183,6 +192,8 @@ custom_messages__py: rosidl_generator_py/custom_messages/msg/_controller_msg.py
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_controller_msg_s.c
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_dino.py
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_dino_s.c
+custom_messages__py: rosidl_generator_py/custom_messages/msg/_game_sir.py
+custom_messages__py: rosidl_generator_py/custom_messages/msg/_game_sir_s.c
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_motor_command.py
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_motor_command_s.c
 custom_messages__py: rosidl_generator_py/custom_messages/msg/_motor_feedback.py

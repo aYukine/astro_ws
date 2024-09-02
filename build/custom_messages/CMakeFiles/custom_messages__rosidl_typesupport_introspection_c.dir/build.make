@@ -84,6 +84,7 @@ rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__ros
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/custom_messages/msg/YoloDetection.idl
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/custom_messages/msg/Dino.idl
+rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/custom_messages/msg/GameSir.idl
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/custom_messages/srv/ResetOdom.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c__arguments.json
@@ -105,6 +106,9 @@ rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection_arr
 
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__rosidl_typesupport_introspection_c.h
 
 rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__rosidl_typesupport_introspection_c.h
@@ -129,6 +133,9 @@ rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection_arr
 
 rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c
+
+rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c
 
 rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c
@@ -231,10 +238,24 @@ CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c -o CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c.s
 
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o: rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o -MF CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o.d -o CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o -c /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c
+
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c > CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.i
+
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c -o CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.s
+
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o: rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o -MF CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o.d -o CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o -c /home/ayukine/holy_ws/build/custom_messages/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c
 
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.i: cmake_force
@@ -254,6 +275,7 @@ custom_messages__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection__type_support.c.o" \
 "CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection_array__type_support.c.o" \
 "CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c.o" \
+"CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o" \
 "CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o"
 
 # External object files for target custom_messages__rosidl_typesupport_introspection_c
@@ -266,6 +288,7 @@ libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_mes
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection__type_support.c.o
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/yolo_detection_array__type_support.c.o
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c.o
+libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c.o
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/reset_odom__type_support.c.o
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/build.make
 libcustom_messages__rosidl_typesupport_introspection_c.so: libcustom_messages__rosidl_generator_c.so
@@ -273,7 +296,7 @@ libcustom_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/l
 libcustom_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcustom_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libcustom_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,6 +313,8 @@ CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosid
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/controller_msg__type_support.c
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__rosidl_typesupport_introspection_c.h
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/dino__type_support.c
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__rosidl_typesupport_introspection_c.h
+CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/game_sir__type_support.c
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_command__type_support.c
 CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custom_messages/msg/detail/motor_feedback__rosidl_typesupport_introspection_c.h

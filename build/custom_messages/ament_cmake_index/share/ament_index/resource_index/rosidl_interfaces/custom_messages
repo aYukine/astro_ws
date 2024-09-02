@@ -4,6 +4,8 @@ msg/ControllerMsg.idl
 msg/ControllerMsg.msg
 msg/Dino.idl
 msg/Dino.msg
+msg/GameSir.idl
+msg/GameSir.msg
 msg/MotorCommand.idl
 msg/MotorCommand.msg
 msg/MotorFeedback.idl

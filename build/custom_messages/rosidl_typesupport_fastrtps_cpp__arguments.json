@@ -10,6 +10,7 @@
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/YoloDetection.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/YoloDetectionArray.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/Dino.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:msg/GameSir.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages:srv/ResetOdom.idl"
   ],
   "target_dependencies": [
@@ -28,6 +29,7 @@
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/YoloDetection.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/Dino.idl",
+    "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/msg/GameSir.idl",
     "/home/ayukine/holy_ws/build/custom_messages/rosidl_adapter/custom_messages/srv/ResetOdom.idl"
   ]
 }

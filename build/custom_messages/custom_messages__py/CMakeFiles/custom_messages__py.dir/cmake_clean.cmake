@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/custom_messages/msg/_controller_msg_s.c"
   "../rosidl_generator_py/custom_messages/msg/_dino.py"
   "../rosidl_generator_py/custom_messages/msg/_dino_s.c"
+  "../rosidl_generator_py/custom_messages/msg/_game_sir.py"
+  "../rosidl_generator_py/custom_messages/msg/_game_sir_s.c"
   "../rosidl_generator_py/custom_messages/msg/_motor_command.py"
   "../rosidl_generator_py/custom_messages/msg/_motor_command_s.c"
   "../rosidl_generator_py/custom_messages/msg/_motor_feedback.py"

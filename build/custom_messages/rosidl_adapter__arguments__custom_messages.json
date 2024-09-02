@@ -8,6 +8,7 @@
     "/home/ayukine/holy_ws/src/custom_messages:msg/YoloDetection.msg",
     "/home/ayukine/holy_ws/src/custom_messages:msg/YoloDetectionArray.msg",
     "/home/ayukine/holy_ws/src/custom_messages:msg/Dino.msg",
+    "/home/ayukine/holy_ws/src/custom_messages:msg/GameSir.msg",
     "/home/ayukine/holy_ws/src/custom_messages:srv/ResetOdom.srv"
   ]
 }

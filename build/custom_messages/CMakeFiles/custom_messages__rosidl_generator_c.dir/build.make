@@ -89,6 +89,7 @@ rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_me
 rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_messages/msg/YoloDetection.idl
 rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl
 rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_messages/msg/Dino.idl
+rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_messages/msg/GameSir.idl
 rosidl_generator_c/custom_messages/msg/motor_command.h: rosidl_adapter/custom_messages/srv/ResetOdom.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c__arguments.json
@@ -174,6 +175,18 @@ rosidl_generator_c/custom_messages/msg/detail/dino__struct.h: rosidl_generator_c
 rosidl_generator_c/custom_messages/msg/detail/dino__type_support.h: rosidl_generator_c/custom_messages/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/dino__type_support.h
 
+rosidl_generator_c/custom_messages/msg/game_sir.h: rosidl_generator_c/custom_messages/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/game_sir.h
+
+rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.h: rosidl_generator_c/custom_messages/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.h
+
+rosidl_generator_c/custom_messages/msg/detail/game_sir__struct.h: rosidl_generator_c/custom_messages/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/game_sir__struct.h
+
+rosidl_generator_c/custom_messages/msg/detail/game_sir__type_support.h: rosidl_generator_c/custom_messages/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/game_sir__type_support.h
+
 rosidl_generator_c/custom_messages/srv/reset_odom.h: rosidl_generator_c/custom_messages/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/srv/reset_odom.h
 
@@ -206,6 +219,9 @@ rosidl_generator_c/custom_messages/msg/detail/yolo_detection_array__functions.c:
 
 rosidl_generator_c/custom_messages/msg/detail/dino__functions.c: rosidl_generator_c/custom_messages/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/dino__functions.c
+
+rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c: rosidl_generator_c/custom_messages/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c
 
 rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c: rosidl_generator_c/custom_messages/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c
@@ -308,10 +324,24 @@ CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_mes
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/dino__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/dino__functions.c -o CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/dino__functions.c.s
 
+CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o: CMakeFiles/custom_messages__rosidl_generator_c.dir/flags.make
+CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o: rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c
+CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o: CMakeFiles/custom_messages__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o -MF CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o.d -o CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o -c /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c
+
+CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c > CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.i
+
+CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c -o CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.s
+
 CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o: CMakeFiles/custom_messages__rosidl_generator_c.dir/flags.make
 CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o: rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c
 CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o: CMakeFiles/custom_messages__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o -MF CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o.d -o CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o -c /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c
 
 CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.i: cmake_force
@@ -331,6 +361,7 @@ custom_messages__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/yolo_detection__functions.c.o" \
 "CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/yolo_detection_array__functions.c.o" \
 "CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/dino__functions.c.o" \
+"CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o" \
 "CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o"
 
 # External object files for target custom_messages__rosidl_generator_c
@@ -343,12 +374,13 @@ libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_ge
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/yolo_detection__functions.c.o
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/yolo_detection_array__functions.c.o
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/dino__functions.c.o
+libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c.o
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/reset_odom__functions.c.o
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/build.make
 libcustom_messages__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcustom_messages__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libcustom_messages__rosidl_generator_c.so: CMakeFiles/custom_messages__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libcustom_messages__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libcustom_messages__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_messages__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -373,6 +405,10 @@ CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/cu
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/dino__functions.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/dino__struct.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/dino__type_support.h
+CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.c
+CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/game_sir__functions.h
+CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/game_sir__struct.h
+CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/game_sir__type_support.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/motor_command__functions.c
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/motor_command__functions.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/motor_command__struct.h
@@ -390,6 +426,7 @@ CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/cu
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/yolo_detection_array__struct.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/detail/yolo_detection_array__type_support.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/dino.h
+CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/game_sir.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/motor_command.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/motor_feedback.h
 CMakeFiles/custom_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_messages/msg/yolo_detection.h

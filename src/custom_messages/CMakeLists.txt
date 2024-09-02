@@ -27,6 +27,7 @@ set(msg_files
   "msg/YoloDetection.msg"
   "msg/YoloDetectionArray.msg"
   "msg/Dino.msg"
+  "msg/GameSir.msg"
 )
 
 # Define service files

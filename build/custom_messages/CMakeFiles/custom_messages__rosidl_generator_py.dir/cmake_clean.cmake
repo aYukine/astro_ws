@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_controller_msg_s.c.o.d"
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_dino_s.c.o"
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_dino_s.c.o.d"
+  "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_game_sir_s.c.o"
+  "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_game_sir_s.c.o.d"
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_motor_command_s.c.o"
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_motor_command_s.c.o.d"
   "CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_motor_feedback_s.c.o"

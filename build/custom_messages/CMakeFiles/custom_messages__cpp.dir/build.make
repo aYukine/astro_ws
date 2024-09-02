@@ -94,6 +94,10 @@ CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/dino.h
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__builder.hpp
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__struct.hpp
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__traits.hpp
+CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/game_sir.hpp
+CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__builder.hpp
+CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__struct.hpp
+CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__traits.hpp
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/srv/reset_odom.hpp
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/srv/detail/reset_odom__builder.hpp
 CMakeFiles/custom_messages__cpp: rosidl_generator_cpp/custom_messages/srv/detail/reset_odom__struct.hpp
@@ -121,6 +125,7 @@ rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custo
 rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custom_messages/msg/YoloDetection.idl
 rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custom_messages/msg/YoloDetectionArray.idl
 rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custom_messages/msg/Dino.idl
+rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custom_messages/msg/GameSir.idl
 rosidl_generator_cpp/custom_messages/msg/motor_command.hpp: rosidl_adapter/custom_messages/srv/ResetOdom.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ayukine/holy_ws/build/custom_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ayukine/holy_ws/build/custom_messages/rosidl_generator_cpp__arguments.json
@@ -206,6 +211,18 @@ rosidl_generator_cpp/custom_messages/msg/detail/dino__struct.hpp: rosidl_generat
 rosidl_generator_cpp/custom_messages/msg/detail/dino__traits.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/msg/detail/dino__traits.hpp
 
+rosidl_generator_cpp/custom_messages/msg/game_sir.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/msg/game_sir.hpp
+
+rosidl_generator_cpp/custom_messages/msg/detail/game_sir__builder.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/msg/detail/game_sir__builder.hpp
+
+rosidl_generator_cpp/custom_messages/msg/detail/game_sir__struct.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/msg/detail/game_sir__struct.hpp
+
+rosidl_generator_cpp/custom_messages/msg/detail/game_sir__traits.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/msg/detail/game_sir__traits.hpp
+
 rosidl_generator_cpp/custom_messages/srv/reset_odom.hpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_messages/srv/reset_odom.hpp
 
@@ -230,6 +247,9 @@ custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/controller
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__builder.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__struct.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/dino__traits.hpp
+custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__builder.hpp
+custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__struct.hpp
+custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/game_sir__traits.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/motor_command__builder.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/motor_command__struct.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/motor_command__traits.hpp
@@ -243,6 +263,7 @@ custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/yolo_detec
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/yolo_detection_array__struct.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/detail/yolo_detection_array__traits.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/dino.hpp
+custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/game_sir.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/motor_command.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/motor_feedback.hpp
 custom_messages__cpp: rosidl_generator_cpp/custom_messages/msg/yolo_detection.hpp
