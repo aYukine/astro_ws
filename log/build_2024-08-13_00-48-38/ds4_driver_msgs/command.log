@@ -1,6 +1,0 @@
-Invoking command in '/home/ayukine/holy_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayukine/holy_ws/src/ds4_driver/ds4_driver_msgs -DCMAKE_INSTALL_PREFIX=/home/ayukine/holy_ws/install/ds4_driver_msgs
-Invoked command in '/home/ayukine/holy_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayukine/holy_ws/src/ds4_driver/ds4_driver_msgs -DCMAKE_INSTALL_PREFIX=/home/ayukine/holy_ws/install/ds4_driver_msgs
-Invoking command in '/home/ayukine/holy_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayukine/holy_ws/build/ds4_driver_msgs -- -j16 -l16
-Invoked command in '/home/ayukine/holy_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayukine/holy_ws/build/ds4_driver_msgs -- -j16 -l16
-Invoking command in '/home/ayukine/holy_ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ayukine/holy_ws/build/ds4_driver_msgs
-Invoked command in '/home/ayukine/holy_ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ayukine/holy_ws/build/ds4_driver_msgs

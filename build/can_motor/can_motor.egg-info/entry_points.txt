@@ -1,3 +1,0 @@
-[console_scripts]
-can_motor_node = can_motor.can_motor:main
-
