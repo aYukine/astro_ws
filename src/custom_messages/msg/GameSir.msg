@@ -2,4 +2,17 @@ uint8 x1
 uint8 y1
 uint8 x2
 uint8 y2
-
+bool up
+bool left
+bool right
+bool down
+bool y
+bool x
+bool b
+bool a
+bool lt
+bool lb
+bool rt
+bool rb
+bool m1
+bool m2

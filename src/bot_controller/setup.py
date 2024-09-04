@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'controller_node = bot_controller.control_bot:main',
+            'wifi_node =  bot_controller.udpserver:main'
         ],
     },
 )

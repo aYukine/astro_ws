@@ -5,13 +5,6 @@ from rclpy.node import Node
 from ds4_driver_msgs.msg import Report
 from custom_messages.msg import MotorCommand
 
-import socket
-
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-server_address = ('0.0.0.0', 12300)
-sock.bind(server_address)
-
 class ControlNode(Node):
     def __init__(self):
         Node.__init__(self, 'control_node') 
@@ -25,7 +18,7 @@ class ControlNode(Node):
     def data_listener(self):
         while True:
             # Receive data from the client
-            data, address = sock.recvfrom(1024)
+            data = sock.recv(1024)
             data = data.decode('utf-8')
             data = data.split(',')
             x_part = data[0].split(':')[1].strip()
