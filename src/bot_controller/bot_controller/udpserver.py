@@ -13,11 +13,12 @@ class GameSirNode(Node):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         server_address = ('0.0.0.0', 25000)
         self.sock.bind(server_address)
-        self.timer = self.create_timer(0.01, self.timer_callback)
+        while True:
+            self.timer_callback()
 
     def timer_callback(self):
         msg = GameSir()
-        data = self.sock.recv(1024)
+        data = self.sock.recv(20)
         msg.x1 = data[0]
         msg.y1 = data[1]
         msg.x2 = data[2]

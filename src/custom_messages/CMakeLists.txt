@@ -20,14 +20,17 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Define message files
 set(msg_files
-  "msg/MotorCommand.msg"
-  "msg/MotorFeedback.msg"
   "msg/CanMsg.msg"
-  "msg/ControllerMsg.msg"
+  "msg/DigitalAndAnalogFeedback.msg"
+  "msg/DigitalAndSolenoidCommand.msg"
+  "msg/EncoderFeedback.msg"
+  "msg/MotorCommand.msg"
+  "msg/PwmCommand.msg"
+  "msg/ServoCommand.msg"
   "msg/YoloDetection.msg"
   "msg/YoloDetectionArray.msg"
-  "msg/Dino.msg"
   "msg/GameSir.msg"
+  "msg/Odom.msg"
 )
 
 # Define service files

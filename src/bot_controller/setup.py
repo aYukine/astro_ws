@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'controller_node = bot_controller.control_bot:main',
+            'holy_node = bot_controller.app_control:main',
             'wifi_node =  bot_controller.udpserver:main'
         ],
     },

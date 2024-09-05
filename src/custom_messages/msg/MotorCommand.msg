@@ -1,4 +1,4 @@
-uint16 motor_id
+uint16 can_id
 float32 goal
 bool speedmode
 bool stop

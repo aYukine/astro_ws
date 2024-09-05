@@ -1,3 +1,3 @@
-uint16 motor_id
+uint16 can_id
 float32 speed
 float32 position
