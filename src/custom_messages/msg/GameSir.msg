@@ -16,3 +16,5 @@ bool rt
 bool rb
 bool m1
 bool m2
+uint8 d_x
+uint8 d_y

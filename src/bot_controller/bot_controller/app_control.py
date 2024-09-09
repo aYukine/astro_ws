@@ -30,27 +30,53 @@ class ControlNode(Node):
         self.wheel_array = np.array([0.0, 0.0, 0.0, 0.0])
         self.wheel_position_array = [0.0, 0.0, 0.0, 0.0]
         self.previous_time = time.perf_counter()
-
+        
+        self.auto = False
+        self.d_x = 0
+        self.d_y = 0
 
         self.w1_count = 0
         self.w2_count = 0
         self.w3_count = 0
         self.w4_count = 0
+
+    def rotate_coordinate(x, y, alpha):
+        rotation_matrix = np.array([[np.cos(alpha), -np.sin(alpha)],
+                                    [np.sin(alpha), np.cos(alpha)]])
+        rotated_vector = np.dot(rotation_matrix, np.array([x, y]))
+        return (rotated_vector[0], rotated_vector[1])
+
     
     def callback(self, msg):
+        
+        if msg.rt:
+            self.auto = not self.auto
+            self.d_x = self.global_x
+            self.d_y = self.global_y
 
-        x1 = (msg.x1 - 128) / 128
-        y1 = (msg.y1 - 128) / 128
-        x2 = (msg.x2 - 128) / 128
+        if not self.auto:
+            x1 = (msg.x1 - 128) / 128
+            y1 = (msg.y1 - 128) / 128
+            x2 = (msg.x2 - 128) / 128
 
-        if abs(x1) < 0.05:
-            x1 = 0
-        if abs(x2) < 0.05:
-            x2 = 0
-        if abs(y1) < 0.05:
-            y1 = 0
+            if abs(x1) < 0.05:
+                x1 = 0
+            if abs(x2) < 0.05:
+                x2 = 0
+            if abs(y1) < 0.05:
+                y1 = 0
 
-        self.move(x1, y1, x2)
+            self.move(x1, y1, x2)
+
+        else:
+            self.d_x = msg.d_x
+            self.d_y = msg.d_y
+
+            d_vec = (self.d_x - self.global_x, self.d_y -self.global_y)
+            total_l = math.sqrt(d_vec[0]**2+d_vec[1]**2)
+            d_vec = (d_vec[0]/total_l + d_vec[1]/total_l)
+            d_vec = self.rotate_coordinate(d_vec[0], d_vec[1], self.yaw)
+            self.move(d_vec[0], d_vec[1], 0)
 
     def move(self, x, y, a):
         # get desired speed value

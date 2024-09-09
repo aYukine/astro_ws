@@ -37,6 +37,8 @@ class GameSirNode(Node):
         msg.rb = bool(data[15])
         msg.m1 = bool(data[16])
         msg.m2 = bool(data[17])
+        msg.d_x = data[18]
+        msg.d_y = data[19]
 
         self.datapub.publish(msg)
 
